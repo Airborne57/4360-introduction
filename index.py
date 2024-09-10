@@ -1,6 +1,6 @@
 import sys
 
-option = input("Enter either /fact, /name, /why, or /what: ").lower()
+option = sys.argv[1].lower()
 
 if option == "/fact":
     print("I play the trumpet, both of my parents direct bands, and my brother is a music education major at BSU.")
